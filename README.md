@@ -1,7 +1,7 @@
 # 💫 About Me:
-🚀 Crafting lines of code that dance with electrons, forging digital dreams and turning caffeine into software.
-Open to Collaborate on interesting projects
-Always happy to chat about anything about tech
+🚀 Crafting lines of code that dance with electrons, forging digital dreams and turning caffeine into software. <br>
+Open to Collaborate on interesting projects <br>
+Always happy to chat about anything about tech <br>
 
 
 ## 🌐 Socials:
