@@ -6,7 +6,7 @@
 
 <a href="https://mycodingjourney.com"><img src="https://img.shields.io/badge/mycodingjourney.com-0a0e16?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"/></a>
 <a href="https://flowbitstudio.ie"><img src="https://img.shields.io/badge/Flowbit_Studio-FF6B35?style=for-the-badge&logo=lightning&logoColor=white" alt="Flowbit Studio"/></a>
-<a href="https://labnest.app"><img src="https://img.shields.io/badge/Labnest-29B5E8?style=for-the-badge&logo=apple&logoColor=white" alt="Labnest"/></a>
+<a href="https://labnest.ie"><img src="https://img.shields.io/badge/Labnest-29B5E8?style=for-the-badge&logo=apple&logoColor=white" alt="Labnest"/></a>
 <img src="https://komarev.com/ghpvc/?username=mayankgulaty&style=for-the-badge&color=121a2a&label=VISITORS" alt="Profile views"/>
 
 </div>
