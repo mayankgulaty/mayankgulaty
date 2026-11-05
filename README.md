@@ -1,12 +1,15 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Mayank Gulaty: Data Engineer, iOS builder, marathoner"/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg"/>
+  <img src="./assets/header.svg" width="100%" alt="Mayank Gulaty: Data Engineer, iOS builder, marathoner"/>
+</picture>
 
 <br/>
 
 <a href="https://mycodingjourney.com"><img src="https://img.shields.io/badge/mycodingjourney.com-0a0e16?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"/></a>
 <a href="https://flowbitstudio.ie"><img src="https://img.shields.io/badge/Flowbit_Studio-FF6B35?style=for-the-badge&logo=lightning&logoColor=white" alt="Flowbit Studio"/></a>
-<a href="https://labnest.ie"><img src="https://img.shields.io/badge/Labnest-29B5E8?style=for-the-badge&logo=apple&logoColor=white" alt="Labnest"/></a>
+<a href="https://labnest.app"><img src="https://img.shields.io/badge/Labnest-29B5E8?style=for-the-badge&logo=apple&logoColor=white" alt="Labnest"/></a>
 <img src="https://komarev.com/ghpvc/?username=mayankgulaty&style=for-the-badge&color=121a2a&label=VISITORS" alt="Profile views"/>
 
 </div>
@@ -30,7 +33,10 @@ object Mayank extends App {
 <br/>
 
 <div align="center">
-<img src="./assets/stack.svg" width="100%" alt="My stack as a Spark job: ingest, transform, warehouse, orchestrate, ship, homelab"/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg"/>
+  <img src="./assets/stack.svg" width="100%" alt="My stack as a Spark job: ingest, transform, warehouse, orchestrate, ship, homelab"/>
+</picture>
 </div>
 
 <br/>
@@ -41,7 +47,7 @@ object Mayank extends App {
 <tr>
 <td width="50%" valign="top">
 
-### 🏠 [Labnest](https://labnest.ie)
+### 🏠 [Labnest](https://labnest.app)
 A native iPhone dashboard for your whole homelab. Komodo, Immich, the *arr stack and TeslaMate in one place, with an Apple-quality feel.
 
 `Swift` `SwiftUI` `self-hosted` `App Store bound`
@@ -92,7 +98,10 @@ A Raspberry Pi running Umbrel, ad-blocking for the whole network, self-hosted bu
 <br/>
 
 <div align="center">
-<img src="./assets/marathon.svg" width="100%" alt="Marathons: Berlin, New York, Dublin, Valencia finished. Tokyo 2027 next."/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/marathon-light.svg"/>
+  <img src="./assets/marathon.svg" width="100%" alt="Marathons: Berlin, New York, Dublin, Valencia finished. Tokyo 2027 next."/>
+</picture>
 </div>
 
 <br/>
@@ -100,8 +109,37 @@ A Raspberry Pi running Umbrel, ad-blocking for the whole network, self-hosted bu
 ## 📊 &nbsp;Metrics
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mayankgulaty&show_icons=true&hide_border=true&bg_color=0a0e16&title_color=FF6B35&icon_color=29B5E8&text_color=c9d4e5&rank_icon=github&border_radius=16" alt="GitHub stats"/>
-<img height="165" src="https://streak-stats.demolab.com?user=mayankgulaty&hide_border=true&background=0a0e16&ring=FF6B35&fire=FF6B35&currStreakLabel=29B5E8&sideLabels=c9d4e5&currStreakNum=ffffff&sideNums=ffffff&dates=5b6b85&stroke=1b2433&border_radius=16" alt="GitHub streak"/>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/contrib-light.svg"/>
+  <img src="./assets/generated/contrib-dark.svg" width="100%" alt="Contribution calendar streaming into a Spark node"/>
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/languages-light.svg"/>
+  <img src="./assets/generated/languages-dark.svg" width="100%" alt="Languages across my public repos"/>
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=mayankgulaty&show_icons=true&hide_border=true&rank_icon=github&border_radius=16&title_color=FF6B35&icon_color=29B5E8&bg_color=ffffff&text_color=374151"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=mayankgulaty&show_icons=true&hide_border=true&rank_icon=github&border_radius=16&title_color=FF6B35&icon_color=29B5E8&bg_color=0a0e16&text_color=c9d4e5" alt="GitHub stats"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=mayankgulaty&hide_border=true&ring=FF6B35&fire=FF6B35&currStreakLabel=29B5E8&border_radius=16&background=ffffff&sideLabels=374151&currStreakNum=111827&sideNums=111827&dates=6b7280&stroke=e5e7eb"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=mayankgulaty&hide_border=true&ring=FF6B35&fire=FF6B35&currStreakLabel=29B5E8&border_radius=16&background=0a0e16&sideLabels=c9d4e5&currStreakNum=ffffff&sideNums=ffffff&dates=5b6b85&stroke=1b2433" alt="GitHub streak"/>
+</picture>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=mayankgulaty&line=FF6B35&point=29B5E8&area=true&area_color=FF6B35&hide_border=true&radius=16&custom_title=commit%20throughput%20%C2%B7%20last%2031%20days&bg_color=ffffff&color=374151&title_color=FF6B35"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mayankgulaty&line=FF6B35&point=29B5E8&area=true&area_color=FF6B35&hide_border=true&radius=16&custom_title=commit%20throughput%20%C2%B7%20last%2031%20days&bg_color=0a0e16&color=c9d4e5&title_color=FF6B35" alt="GitHub activity graph"/>
+</picture>
+
 </div>
 
 <br/>
