@@ -41,7 +41,7 @@ object Mayank extends App {
 <tr>
 <td width="50%" valign="top">
 
-### 🏠 [Labnest](https://labnest.app)
+### 🏠 [Labnest](https://labnest.ie)
 A native iPhone dashboard for your whole homelab. Komodo, Immich, the *arr stack and TeslaMate in one place, with an Apple-quality feel.
 
 `Swift` `SwiftUI` `self-hosted` `App Store bound`
