@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e16"/>
+      <stop offset="1" stop-color="#121a2a"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#29B5E8"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="900" height="230" rx="20"/></clipPath>
+    <path id="route" d="M70 130 C 170 70, 230 170, 330 120 S 500 70, 580 125 S 700 170, 790 110"/>
+  </defs>
+  <style>
+    .mono { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+    .draw { stroke-dasharray: 900; stroke-dashoffset: 900; animation: draw 3.5s ease-in-out .3s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .pop { opacity: 0; animation: pop .4s ease-out forwards; transform-box: fill-box; transform-origin: center; }
+    @keyframes pop { from { opacity: 0; transform: scale(.4); } to { opacity: 1; transform: scale(1); } }
+    .ring { animation: ring 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes ring { from { transform: scale(1); opacity: .9; } to { transform: scale(2.6); opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="230" fill="url(#bg)"/>
+
+    <text x="32" y="38" class="sans" font-size="16" font-weight="800" fill="#e6edf3">off-cluster workload</text>
+    <text x="210" y="38" class="mono" font-size="12" fill="#5b6b85">// 42.195 km at a time</text>
+    <text x="868" y="38" text-anchor="end" class="mono" font-size="12" fill="#7d8ba3">finished: <tspan fill="#3fd560" font-weight="700">4</tspan>  ·  next: <tspan fill="#29B5E8" font-weight="700">Tokyo 2027</tspan></text>
+
+    <!-- route -->
+    <use href="#route" fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-width="8" stroke-linecap="round"/>
+    <use href="#route" class="draw" fill="none" stroke="url(#track)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- checkpoints -->
+    <g class="sans">
+      <g class="pop" style="animation-delay:.6s">
+        <circle cx="70" cy="130" r="9" fill="#0a0e16" stroke="#FF6B35" stroke-width="3"/>
+        <text x="70" y="166" text-anchor="middle" font-size="14" font-weight="700" fill="#e6edf3">Berlin</text>
+        <text x="70" y="182" text-anchor="middle" class="mono" font-size="10" fill="#3fd560">✓ finished</text>
+      </g>
+      <g class="pop" style="animation-delay:1.3s">
+        <circle cx="236" cy="131" r="9" fill="#0a0e16" stroke="#FF7F3C" stroke-width="3"/>
+        <text x="236" y="94" text-anchor="middle" font-size="14" font-weight="700" fill="#e6edf3">New York</text>
+        <text x="236" y="80" text-anchor="middle" class="mono" font-size="10" fill="#3fd560">✓ finished</text>
+      </g>
+      <g class="pop" style="animation-delay:2s">
+        <circle cx="420" cy="87" r="9" fill="#0a0e16" stroke="#C99A72" stroke-width="3"/>
+        <text x="420" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#e6edf3">Dublin</text>
+        <text x="420" y="148" text-anchor="middle" class="mono" font-size="10" fill="#3fd560">✓ home turf</text>
+      </g>
+      <g class="pop" style="animation-delay:2.7s">
+        <circle cx="580" cy="125" r="9" fill="#0a0e16" stroke="#6FAFD0" stroke-width="3"/>
+        <text x="580" y="91" text-anchor="middle" font-size="14" font-weight="700" fill="#e6edf3">Valencia</text>
+        <text x="580" y="77" text-anchor="middle" class="mono" font-size="10" fill="#3fd560">✓ finished</text>
+      </g>
+      <g class="pop" style="animation-delay:3.6s">
+        <circle class="ring" cx="790" cy="110" r="10" fill="none" stroke="#29B5E8" stroke-width="2"/>
+        <circle cx="790" cy="110" r="10" fill="#29B5E8"/>
+        <text x="790" y="148" text-anchor="middle" font-size="15" font-weight="800" fill="#29B5E8">Tokyo</text>
+        <text x="790" y="164" text-anchor="middle" class="mono" font-size="10" fill="#9fdcf4">2027 · in training</text>
+      </g>
+    </g>
+
+    <!-- runner -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" begin="3.8s" dur=".3s" fill="freeze"/>
+      <circle r="6" fill="#fff">
+        <animateMotion dur="7s" begin="3.8s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#route"/></animateMotion>
+      </circle>
+      <circle r="12" fill="#fff" fill-opacity=".15">
+        <animateMotion dur="7s" begin="3.8s" repeatCount="indefinite"><mpath href="#route"/></animateMotion>
+      </circle>
+    </g>
+
+    <!-- known issue -->
+    <rect x="32" y="196" width="836" height="1" fill="#fff" fill-opacity=".06"/>
+    <text x="32" y="216" class="mono" font-size="11.5" fill="#7d8ba3"><tspan fill="#febc2e">⚠ known issue</tspan>  #25k: pace regression around km 25. patch scheduled for Tokyo.</text>
+
+    <rect x="1" y="1" width="898" height="228" rx="19" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  </g>
+</svg>

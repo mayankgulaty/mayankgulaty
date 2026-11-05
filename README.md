@@ -1,244 +1,115 @@
 <div align="center">
-  
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mayank%20Gulaty&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20Big%20Data%20Enthusiast%20%7C%20AI%20Explorer&descAlignY=51&descAlign=62"/>
-  
+
+<img src="./assets/header.svg" width="100%" alt="Mayank Gulaty: Data Engineer, iOS builder, marathoner"/>
+
+<br/>
+
+<a href="https://mycodingjourney.com"><img src="https://img.shields.io/badge/mycodingjourney.com-0a0e16?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"/></a>
+<a href="https://flowbitstudio.ie"><img src="https://img.shields.io/badge/Flowbit_Studio-FF6B35?style=for-the-badge&logo=lightning&logoColor=white" alt="Flowbit Studio"/></a>
+<a href="https://labnest.app"><img src="https://img.shields.io/badge/Labnest-29B5E8?style=for-the-badge&logo=apple&logoColor=white" alt="Labnest"/></a>
+<img src="https://komarev.com/ghpvc/?username=mayankgulaty&style=for-the-badge&color=121a2a&label=VISITORS" alt="Profile views"/>
+
 </div>
 
+<br/>
+
+```scala
+object Mayank extends App {
+  val role      = "AVP · Data Engineer"
+  val basedIn   = "Dublin, Ireland"
+  val yearsIn   = 9                                         // and counting
+  val dayJob    = Seq("Scala", "Spark", "Snowflake", "S3", "OpenShift")
+  val nightJob  = Seq("Labnest (iOS)", "Quarry (iPad)", "a Raspberry Pi that never sleeps")
+  val business  = "Flowbit Studio · web, growth & consulting"
+  lazy val run  = "marathons → Tokyo 2027"                  // lazy only in name
+
+  def motto = "If it runs twice, automate it. If it runs once, it'll run twice."
+}
+```
+
+<br/>
+
 <div align="center">
-  
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hey+There!+👋;+I'm+Mayank+Gulaty!;+Full+Stack+Developer;+Big+Data+Enthusiast;+AI+Explorer;+Coffee+Powered+☕;" alt="Typing SVG" />
-  
+<img src="./assets/stack.svg" width="100%" alt="My stack as a Spark job: ingest, transform, warehouse, orchestrate, ship, homelab"/>
 </div>
 
+<br/>
+
+## 🧪 &nbsp;In the lab
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏠 [Labnest](https://labnest.app)
+A native iPhone dashboard for your whole homelab. Komodo, Immich, the *arr stack and TeslaMate in one place, with an Apple-quality feel.
+
+`Swift` `SwiftUI` `self-hosted` `App Store bound`
+
+</td>
+<td width="50%" valign="top">
+
+### 🧮 Quarry
+Offline SQL and Python practice for data engineers, on iPad. Sharpen queries and transformations anywhere, no Wi-Fi required.
+
+`SwiftUI` `iPadOS` `offline-first`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [Flowbit Studio](https://flowbitstudio.ie)
+My Irish studio for web design, digital marketing and consulting. From landing pages to Google Ads that actually convert.
+
+`Next.js` `Vercel` `Ads` `CRO`
+
+</td>
+<td width="50%" valign="top">
+
+### 🍓 Homelab
+A Raspberry Pi running Umbrel, ad-blocking for the whole network, self-hosted budgeting, audiobooks and a media stack. My personal staging environment for everything.
+
+`Docker` `Umbrel` `Linux`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 📟 &nbsp;Live driver log
+
+> Auto-updated by a GitHub Action from my real public activity, formatted the only way a Spark engineer knows how.
+
+<!--SPARK_LOG:START-->
+```log
+26/11/05 22:40:00 INFO SparkContext: Running Spark version 4.x on mayank@dublin
+26/11/05 22:40:01 INFO DAGScheduler: Waiting for the first job to be submitted...
+```
+<!--SPARK_LOG:END-->
+
+<br/>
+
 <div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=mayankgulaty&color=FF006E&style=for-the-badge&label=👀+PROFILE+VIEWS)
-  
+<img src="./assets/marathon.svg" width="100%" alt="Marathons: Berlin, New York, Dublin, Valencia finished. Tokyo 2027 next."/>
 </div>
 
----
+<br/>
+
+## 📊 &nbsp;Metrics
 
 <div align="center">
-  
-  ### 🚀 *Crafting lines of code that dance with electrons, forging digital dreams and turning caffeine into software* ☕
-  
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=mayankgulaty&show_icons=true&hide_border=true&bg_color=0a0e16&title_color=FF6B35&icon_color=29B5E8&text_color=c9d4e5&rank_icon=github&border_radius=16" alt="GitHub stats"/>
+<img height="165" src="https://streak-stats.demolab.com?user=mayankgulaty&hide_border=true&background=0a0e16&ring=FF6B35&fire=FF6B35&currStreakLabel=29B5E8&sideLabels=c9d4e5&currStreakNum=ffffff&sideNums=ffffff&dates=5b6b85&stroke=1b2433&border_radius=16" alt="GitHub streak"/>
 </div>
 
----
-
-## 🎯 About Me
+<br/>
 
 <div align="center">
-  
-  ```python
-  ╔═══════════════════════════════════════════════════════════╗
-  ║                                                           ║
-  ║  class Developer:                                        ║
-  ║      def __init__(self):                                  ║
-  ║          self.name = "Mayank Gulaty"                      ║
-  ║          self.role = "Full Stack Developer"              ║
-  ║          self.location = "Dublin, Ireland 🇮🇪"            ║
-  ║          self.current_learning = [                        ║
-  ║              "Cloud Architecture ☁️",                       ║
-  ║              "AI/ML 🤖",                                  ║
-  ║              "Distributed Systems 🔄"                    ║
-  ║          ]                                                 ║
-  ║          self.hobbies = [                                ║
-  ║              "Coding 💻",                                 ║
-  ║              "Building Projects 🚀",                       ║
-  ║              "Tech Talks 🎤",                             ║
-  ║              "Open Source 🌟"                             ║
-  ║          ]                                                 ║
-  ║                                                           ║
-  ║      def say_hi(self):                                    ║
-  ║          return "Always open to collaborate! 🚀"          ║
-  ║                                                           ║
-  ╚═══════════════════════════════════════════════════════════╝
-  ```
-  
-</div>
 
----
+**Open to** talks on data platforms · collabs on iOS + self-hosting · a coffee in Dublin ☕
 
-## 🛠️ Tech Stack & Tools
+<sub>Built with Scala-grade over-engineering. Animations are hand-written SVG, no frameworks were harmed.</sub>
 
-### 💻 Languages
-<div align="center">
-  
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&logoWidth=30" alt="Python"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell"/>
-  
-</div>
-
-### ☁️ Cloud & DevOps
-<div align="center">
-  
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  
-</div>
-
-### 📊 Big Data Ecosystem
-<div align="center">
-  
-  <img src="https://img.shields.io/badge/Apache_Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black" alt="Spark"/>
-  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka"/>
-  <img src="https://img.shields.io/badge/Apache_Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" alt="Hadoop"/>
-  <img src="https://img.shields.io/badge/Apache_Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" alt="Hive"/>
-  
-</div>
-
-### 🗄️ Databases
-<div align="center">
-  
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
-  
-</div>
-
-### 🛠️ Tools & Others
-<div align="center">
-  
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white" alt="Maven"/>
-  
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mayankgulaty&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=FF006E&icon_color=FF006E&text_color=ffffff&border_radius=10" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayankgulaty&layout=compact&langs_count=8&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF006E&icon_color=FF006E&text_color=ffffff&border_radius=10" alt="Top Languages" />
-  
-</div>
-
-<div align="center">
-  
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mayankgulaty&theme=radical&hide_border=true&fire=FF006E&ring=FF006E&currStreakLabel=FF006E&sideNums=FF006E&sideLabels=FF006E&dates=FF006E)
-  
-</div>
-
-<div align="center">
-  
-  ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=mayankgulaty&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15&rank=SSS,SS,S,AAA,AA,A,B,C)
-  
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  
-  ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mayankgulaty&theme=redical&hide_border=true&area=true&custom_title=My%20Contribution%20Graph%20📊&bg_color=0D1117&color=FF006E&line=FF006E&point=FFFFFF&area_color=FF006E)
-  
-</div>
-
----
-
-## 🎯 What I'm Up To
-
-<div align="center">
-  
-  | 🔨 Building | 📚 Learning | 🚀 Contributing | 💡 Exploring | ☕ Coffee |
-  |:---:|:---:|:---:|:---:|:---:|
-  | AI-powered tools | Cloud architectures | Open-source projects | New technologies | Always brewing |
-  
-</div>
-
----
-
-## 🌐 Connect With Me
-
-<div align="center">
-  
-  <a href="https://instagram.com/mayankgulaty">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=30" alt="Instagram"/>
-  </a>
-  <a href="https://linkedin.com/in/mayankgulaty">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=30" alt="LinkedIn"/>
-  </a>
-  <a href="https://x.com/mayankgulaty">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&logoWidth=30" alt="Twitter"/>
-  </a>
-  <a href="https://github.com/mayankgulaty">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&logoWidth=30" alt="GitHub"/>
-  </a>
-  
-</div>
-
----
-
-## 💡 Random Dev Quote
-
-<div align="center">
-  
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-  
-</div>
-
----
-
-## 😂 Random Dev Meme
-
-<div align="center">
-  
-  <img src='https://randommeme-five.vercel.app/' style="height: 400px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.3);"/>
-  
-</div>
-
----
-
-## 🎮 Fun Stats
-
-<div align="center">
-  
-  ![GitHub Followers](https://img.shields.io/github/followers/mayankgulaty?label=Followers&style=for-the-badge&color=FF006E&logo=github)
-  ![GitHub Stars](https://img.shields.io/github/stars/mayankgulaty?label=Total%20Stars&style=for-the-badge&color=FF006E&logo=github)
-  
-</div>
-
----
-
-## 🎨 Visual Elements
-
-<div align="center">
-  
-  ```
-  ╔═══════════════════════════════════════════════════════════╗
-  ║                                                           ║
-  ║   ███╗   ███╗ █████╗ ██╗   ██╗ █████╗ ███╗   ██╗██╗  ██╗ ║
-  ║   ████╗ ████║██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║██║ ██╔╝ ║
-  ║   ██╔████╔██║███████║ ╚████╔╝ ███████║██╔██╗ ██║█████╔╝  ║
-  ║   ██║╚██╔╝██║██╔══██║  ╚██╔╝  ██╔══██║██║╚██╗██║██╔═██╗  ║
-  ║   ██║ ╚═╝ ██║██║  ██║   ██║   ██║  ██║██║ ╚████║██║  ██╗ ║
-  ║   ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ║
-  ║                                                           ║
-  ║   💻 Code • ☕ Coffee • 🚀 Innovation                      ║
-  ║                                                           ║
-  ╚═══════════════════════════════════════════════════════════╝
-  ```
-  
-</div>
-
----
-
-<div align="center">
-  
-  ### ⚡ *Code is like humor. When you have to explain it, it's bad.* ⚡
-  
-  ---
-  
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20visiting!%20⭐&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=75"/>
-  
-  **Made with ❤️ and lots of ☕ by Mayank Gulaty**
-  
 </div>
